@@ -1,5 +1,5 @@
 ## Progressive Representation Recalibration for Lightweight Super-resolution (PRRN)
-The testing code for our paper **"Progressive Representation Recalibration for Lightweight Super-resolution"**, accepted by Neurocomputing [[pdf](https://www.sciencedirect.com/science/article/pii/S0925231222009080)]
+The testing code for our paper **"Progressive Representation Recalibration for Lightweight Super-resolution"**, accepted by **Neurocomputing**. [[pdf](https://www.sciencedirect.com/science/article/pii/S0925231222009080)]
 
 ## [NTIRE 2022 Workshop and Challenge](https://data.vision.ee.ethz.ch/cvl/ntire22/) @ CVPR 2022
 ## Our Methods PRRN also participated in [Efficient Super-Resolution Challenge](https://codalab.lisn.upsaclay.fr/competitions/1865). [Challenge Report](https://openaccess.thecvf.com/content/CVPR2022W/NTIRE/papers/Li_NTIRE_2022_Challenge_on_Efficient_Super-Resolution_Methods_and_Results_CVPRW_2022_paper.pdf)
