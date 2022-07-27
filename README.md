@@ -1,14 +1,8 @@
+## Progressive Representation Recalibration for Lightweight Super-resolution (PRRN)
+The testing code for our paper **"Progressive Representation Recalibration for Lightweight Super-resolution"**, accepted by Neurocomputing [[pdf](https://www.sciencedirect.com/science/article/pii/S0925231222009080)]
+
 ## [NTIRE 2022 Workshop and Challenge](https://data.vision.ee.ethz.ch/cvl/ntire22/) @ CVPR 2022
-## Our Methods PRRN for Efficient Super-Resolution Challenge
-
-
-Jointly with NTIRE workshop we have a challenge on Efficient Super-Resolution, that is, the task of super-resolving (increasing the resolution) an input image with a magnification factor x4 based on a set of prior examples of low and corresponding high resolution images. The challenge has three tracks.
-
-**[Track 1: Parameters](https://competitions.codalab.org/competitions/20167)**, the aim is to obtain a network design / solution with the lowest amount of parameters while being constrained to maintain or improve the PSNR result and the inference time (runtime) of IMDN ([Hui et al, 2017](https://arxiv.org/abs/1909.11856)).
-
-**[Track 2: Inference](https://competitions.codalab.org/competitions/20168)**, the aim is to obtain a network design / solution with the lowest inference time (runtime) on a common GPU (ie. Titan Xp) while being constrained to maintain or improve over IMDN ([Hui et al, 2017](https://arxiv.org/abs/1909.11856)) in terms of number of parameters and the PSNR result.
-
-**[Track 3: Fidelity](https://competitions.codalab.org/competitions/20169)**, the aim is to obtain a network design / solution with the best fidelity (PSNR) while being constrained to maintain or improve over IMDN ([Hui et al, 2017](https://arxiv.org/abs/1909.11856)) in terms of number of parameters and inference time on a common GPU (ie. Titan Xp).
+## Our Methods PRRN also participated in [Efficient Super-Resolution Challenge](https://codalab.lisn.upsaclay.fr/competitions/1865). [Challenge Report](https://openaccess.thecvf.com/content/CVPR2022W/NTIRE/papers/Li_NTIRE_2022_Challenge_on_Efficient_Super-Resolution_Methods_and_Results_CVPRW_2022_paper.pdf)
 
 ## Baseline model (IMDN)
 
@@ -42,3 +36,18 @@ Run [test_demo.py](test_demo.py) to test the model
 4. Modify `model_path` in `test_demo.py`. Modify
 the imported models.
 5. `python test_demo.py`
+
+## Citation:
+If you find this work useful for your research, please cite:
+
+```
+@article{WEN2022240,
+title = {Progressive representation recalibration for lightweight super-resolution},
+journal = {Neurocomputing},
+author = {Ruimian Wen and Zhijing Yang and Tianshui Chen and Hao Li and Kai Li},
+volume = {504},
+pages = {240-250},
+year = {2022},
+issn = {0925-2312}
+}
+```
